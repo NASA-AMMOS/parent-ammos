@@ -1,4 +1,4 @@
-# Contributing to [INSERT YOUR PROJECT NAME]
+# Contributing to Parent-ammos
 
 Thanks for taking the time to consider contributing! We very much appreciate your time and effort. This document outlines the many ways you can contribute to our project, and provides detailed guidance on best practices. We look forward to your help!
 
@@ -34,7 +34,7 @@ Our Governance model helps outline our project's decision making and roles-based
 
 ### Developer Environment
 
-For patch contributions, see our [Developer Documentation]([INSERT YOUR DEVELOPMENT GUIDE LINK HERE]) for more details on how to set up your local environment, to best contribute to our project. 
+For patch contributions, see our [Developer Documentation](https://github.com/NASA-AMMOS/parent-ammos/wiki) for more details on how to set up your local environment, to best contribute to our project. 
 
 At a minimum however to submit patches (if using Git), you'll want to ensure you have:
 1. An account on the Version Control System our project uses (i.e. GitHub).
@@ -46,18 +46,8 @@ At a minimum however to submit patches (if using Git), you'll want to ensure you
 Before contributing changes to our project, it's a great idea to be familiar with our communication channels and to socialize your potential contributions to get feedback early. This will help give you context for your contributions, no matter their form.
 
 Our communication channels are:
-- [Issue tracking system]([INSERT LINK TO ISSUE TRACKING SYSTEM]) - a regularly monitored area to report issues with our software or propose changes
-- [Discussion board]([INSERT LINK TO DISCUSSION BOARD OR MAILING LIST]) - an permanently archived place to hold conversations related to our project, and to propose as well as show+tell topics to the contributor team. This resource can be searched for old discussions.
-- [INSERT ADDITIONAL COMMUNICATION CHANNELS FOR YOUR PROJECT, EX: SLACK, TWITTER, YOUTUBE, ETC.]
-
-### Communication Channels
-
-Before contributing changes to our project, it's a great idea to be familiar with our communication channels and to socialize your potential contributions to get feedback early. This will help give you context for your contributions, no matter their form.
-
-Our communication channels are:
-- [Issue tracking system]([INSERT LINK TO ISSUE TRACKING SYSTEM]) - a regularly monitored area to report issues with our software or propose changes
-- [Discussion board](INSERT LINK TO DISCUSSION BOARD OR MAILING LIST) - an permanently archived place to hold conversations related to our project, and to propose as well as show+tell topics to the contributor team. This resource can be searched for old discussions.
-- [INSERT ADDITIONAL COMMUNICATION CHANNELS FOR YOUR PROJECT, EX: SLACK, TWITTER, YOUTUBE, ETC.]
+- [Issue tracking system](https://github.com/NASA-AMMOS/parent-ammos/issues) - a regularly monitored area to report issues with our software or propose changes
+- [Discussion board](https://github.com/NASA-AMMOS/parent-ammos/discussions) - a permanently archived place to hold conversations related to our project, and to propose as well as show+tell topics to the contributor team. This resource can be searched for old discussions.
 
 ## Our Development Process
 
@@ -80,13 +70,13 @@ See [this GitHub guide](https://docs.github.com/en/get-started/quickstart/fork-a
 
 #### Find or File an Issue
 
-Make sure people are aware you're working on a patch! Check out our [issue tracking system]([INSERT LINK TO YOUR ISSUE TRACKING SYSTEM]) and find an open issue you'd like to work against, or alternatively file a new issue and mention you're working on a patch.
+Make sure people are aware you're working on a patch! Check out our [issue tracking system](https://github.com/NASA-AMMOS/parent-ammos/issues) and find an open issue you'd like to work against, or alternatively file a new issue and mention you're working on a patch.
 
 #### Choose the Right Branch to Fork
 
 Our project typically has the following branches available, make sure to fork either the default branch or a branch someone else already tagged with a particular issue ticket you're working with.
-- `main`[INSERT DEFAULT VCS BRANCH NAME HERE] - default branch
-- [INSERT ADDITIONAL TYPICAL VCS BRANCH NAMES HERE] - 
+- `develop` &mdash; default branch, used for new code development
+- `main` &mdash; release branch 
 
 ### Make your Modifications
 
@@ -110,7 +100,7 @@ Additionally, remember to "Sign-Off" on your commits to align with our [Develope
 
 Pull requests are the core way our project will receive your patch contributions. Navigate to your branch on your own fork within the version control system, and submit a pull request or submit the patch text to our project. 
 
-Please make sure to provide a meaningful text description to your pull requests, whenever submitted. Our pull-request template will be auto-generated for you when you create your pull-request. See the template [here]([INSERT LINK TO YOUR PULL REQUEST TEMPLATE, ex: .github/PULL_REQUEST_TEMPLATE.md]). 
+Please make sure to provide a meaningful text description to your pull requests, whenever submitted. Our pull-request template will be auto-generated for you when you create your pull-request. See the template [here](.github/PULL_REQUEST_TEMPLATE.md). 
 
 **Working on your first Pull Request?** See guide: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
 
@@ -134,7 +124,7 @@ Reviewing pull-requests, or any kinds of proposed patch changes, is an art. That
 
 Issue tickets are a very simple way to get involved in our project. It also helps new contributors get an understanding of the project more comprehensively. This is a great place to get started with the project if you're not sure where to start. 
 
-See our list of issues at: [INSERT LINK TO YOUR ISSUE TRACKING SYSTEM]
+See our list of issues at: https://github.com/NASA-AMMOS/parent-ammos/issues
 
 #### Cleaning up Duplicate Issues
 
@@ -152,11 +142,11 @@ This is a duplicate issue. Please migrate conversations over to [issue-XYZ](hype
 
 Issue tickets can vary in complexity, and issues labeled with `good first issue` labels are often a great way to get started with the project as a newcomer. 
 
-Take a look at our [issue tracking system]([INSERT LINK TO YOUR ISSUE TRACKING SYSTEM]), and filter by `good first issue` for issues that are low-complexity, and that will help you get familiar with our issue tracking and patch submission process.
+Take a look at our [issue tracking system](https://github.com/NASA-AMMOS/parent-ammos/issues), and filter by `good first issue` for issues that are low-complexity, and that will help you get familiar with our issue tracking and patch submission process.
 
 #### Suggesting New Issue Labels
 
-Labels within our [issue tracking system]([INSERT LINK TO YOUR ISSUE TRACKING SYSTEM]) are a great way to quickly sort through tickets. The project may not yet have labels to cover the full variety of issue tickets. Take a look through our list of issues, and if you notice a set of issue tickets that seem similar but are not categorized with an existing label, go ahead submit a request within one of the issues you've looked at with the following text:
+Labels within our [issue tracking system](https://github.com/NASA-AMMOS/parent-ammos/issues) are a great way to quickly sort through tickets. The project may not yet have labels to cover the full variety of issue tickets. Take a look through our list of issues, and if you notice a set of issue tickets that seem similar but are not categorized with an existing label, go ahead submit a request within one of the issues you've looked at with the following text:
 
 ```
 I've noticed several other issues that are of the same category as this issue. Shall we make a new label for these types of issues?
@@ -165,10 +155,10 @@ I've noticed several other issues that are of the same category as this issue. S
 #### Submitting Bug Issues
 
 Resolving bugs is a priority for our project. We welcome bug reports. However, please make sure to do the following prior to submitting a bug report:
-- **Check for duplicates** - there may be a bug report already describing your issue, so check the [issue tracking system]([INSERT LINK TO YOUR ISSUE TRACKING SYSTEM]) first.
+- **Check for duplicates** - there may be a bug report already describing your issue, so check the [issue tracking system](https://github.com/NASA-AMMOS/parent-ammos/issues) first.
 
 Here's some guidance on submitting a bug issue:
-1. Navigate to our [issue tracking system]([INSERT LINK TO YOUR ISSUE TRACKING SYSTEM]) and file a new issue
+1. Navigate to our [issue tracking system](https://github.com/NASA-AMMOS/parent-ammos/issues) and file a new issue
 2. Select a bug template (if available) for your issue
    1. Fill out the template fields to the best of your ability, including output snippets or screenshots where applicable
 3. Follow the general guidelines below for extra information about your bug
@@ -180,11 +170,11 @@ Here's some guidance on submitting a bug issue:
 #### Submitting New Feature Issues
 
 We welcome new feature requests to help grow our project. However, please make sure to do the following prior to submitting a new feature request:
-- **Check for duplicates** - there may be a new feature issue already describing your issue, so check the [issue tracking system]([INSERT LINK TO YOUR ISSUE TRACKING SYSTEM]) first
+- **Check for duplicates** - there may be a new feature issue already describing your issue, so check the [issue tracking system](https://github.com/NASA-AMMOS/parent-ammos/issues) first
 - **Consider alternatives** - is your feature really needed? Or is there a feature within our project or with a third-party that may help you achieve what you want?
 
 Here's some guidance on submitting a new feature issue:
-1. Navigate to our [issue tracking system]([INSERT LINK TO YOUR ISSUE TRACKING SYSTEM]) and file a new issue
+1. Navigate to our [issue tracking system](https://github.com/NASA-AMMOS/parent-ammos/issues) and file a new issue
 2. Select a new feature template (if available) for your issue
    1. Fill out the template fields to the best of your ability
 
@@ -192,7 +182,7 @@ Here's some guidance on submitting a new feature issue:
 
 Security vulnerabilities should **not** be filed to the regular issue tracking system.
 
-Report your security vulnerabilities to (see contact links): [INSERT SECURITY CONTACT LINK HERE]
+Report your security vulnerabilities to (see contact links): [@jl-0](https://github.com/jl-0) or [@jeffreypon](https://github.com/jeffreypon)
 
 Please be sure to:
 * Indicate the severity of the vulnerability
@@ -203,14 +193,14 @@ Please be sure to:
 
 Reviewing others' contributions is a great way to learn about best practices in both contributions as well as software. 
 
-Take a look at our [pull requests tracking system]([INSERT LINK FOR PULL REQUESTS TRACKING SYSTEM]), and try the following options for providing a review:
+Take a look at our [pull requests tracking system](https://github.com/NASA-AMMOS/parent-ammos/pulls), and try the following options for providing a review:
 1. Read the code / patch associated with the pull-request, and take note of any coding, bug, or documentation issues if found
 2. Try to recreate the pull-request patch on your local machine, and report if it has issues with your system in particular
 3. Scan over suggested feedback from other contributors, and provide feedback if necessary
 
 ### 💻  Code
 
-⚠️ It's **highly** advised that you take a look at our [issue tracking system]([INSERT LINK TO YOUR ISSUE TRACKING SYSTEM]) before considering any code contributions. Here's some guidelines:
+⚠️ It's **highly** advised that you take a look at our [issue tracking system](https://github.com/NASA-AMMOS/parent-ammos/issues) before considering any code contributions. Here's some guidelines:
 1. Check if any duplicate issues exist that cover your code contribution idea / task, and add comments to those tickets with your thoughts.
 2. If no duplicates exist, create a new issue ticket and get a conversation started before making code changes using our [communication channels](#communication-channels).
 
@@ -224,15 +214,15 @@ Some guidelines for code-specific contributions:
 - **Ask questions** - its important to ask questions while you work on your contributions, to check-in with frequent contributors on the style and the set of expectations to make your code contribution work well with pre-existing project code. Use our [communication channels](#communication-channels)
 - **Keep positive** - code contributions, by their nature, have direct impacts on the output and functionality of the project. Keep a positive spirit as your code is reviewed, and take it in stride if core contributors take time to review, give you suggestions for your code or respectfully decline your contribution. This is all part of the process for quality open source development. 
 - **Comments** - include *useful* comments throughout your code that explain the intention of a code block, not a step-by-step analysis. See our [inline code documentation](#inline-code-documentation) section for specifics. 
-
+<!-- EXAMPLE: APIs, PyTest, etc.
 [INSERT ADDITIONAL SECTIONS HERE FOR MORE SPECIFIC CLASSES OF CODE CONTRIBUTIONS DEPENDING ON YOUR MODULES, LANGUAGES, PLATFORMS IN USE BY YOUR PROJECT. THE MORE DETAILS YOU OFFER, THE MORE LIKELY SOMEONE IS TO UNDERSTAND HOW TO CONTRIBUTE]
-<!-- EXAMPLE: APIs, PyTest, etc. -->
+ -->
 
 ### 📖 Documentation 
 
 Documentation is the core way our users and contributors learn about the project. We place a high value on the quality, thoroughness, and readability of our documentation. Writing or editing documentation is an excellent way to contribute to our project without performing active coding. 
 
-⚠️ It's **highly** advised that you take a look at our [issue-tracking system]([INSERT LINK TO YOUR ISSUE TRACKING SYSTEM]) before considering any documentation contributions. Here's some guidelines:
+⚠️ It's **highly** advised that you take a look at our [issue-tracking system](https://github.com/NASA-AMMOS/parent-ammos/issues) before considering any documentation contributions. Here's some guidelines:
 1. Check if any duplicate issues exist that cover your documentation contribution idea / task, and add comments to those tickets with your thoughts.
 2. If no duplicates exist, create a new issue ticket and get a conversation started before making documentation changes.
 
@@ -248,8 +238,11 @@ The overall structure of our project documentation is as follows:
   - [README.md](README.md) - top-level information about how to run, build, and contribute to the project
   - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) - best practices and guidance on how to work well with other people in the project, and suggestions on dealing with interpersonal issues
   - [CONTRIBUTING.md](CONTRIBUTING.md) - guidance on contributing to the project
-  - `*.[INSERT YOUR CODING LANGUAGE FILE EXTENSIONS HERE]` - inline documentation available inside code files
-- [INSERT ADDITIONAL DOCUMENTATION CLASSES AND ORGANIZATION STRUCTURE HERE, SEE EXAMPLE IN COMMENTS BELOW]
+  - `*.java` - inline documentation available inside code files
+- Hosted documentation
+  - [Wiki Main-page](https://github.com/NASA-AMMOS/parent-ammos/wiki)
+- Discussion Boards
+  - [Discussions](https://github.com/NASA-AMMOS/parent-ammos/discussions)
 
 <!-- EXAMPLE:
 - Source-controlled documentation
@@ -257,7 +250,7 @@ The overall structure of our project documentation is as follows:
   - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) - best practices and guidance on how to work well with other people in the project, and suggestions on dealing with interpersonal issues
   - [CONTRIBUTING.md](CONTRIBUTING.md) - guidance on contributing to the project
   - `*.py` - inline documentation available inside code files' function headers and code blocks
-  - [docs/](docs/)` - top-level directory containing source-controlled documentation built into statically hosted files on our documentation website
+  - [docs/](docs/) - top-level directory containing source-controlled documentation built into statically hosted files on our documentation website
 - Hosted documentation
   - [Wiki Main-page]()
     - [Wiki Sub-page 1]()
@@ -297,8 +290,12 @@ To ensure documentation is readable and consistent by newcomers and experts alik
 #### Common Wording 
 
 Below are some commonly used words you'll want to leverage in your documentation contributions:
-- **GitHub** - one word, and capitalization of the 'G' and the 'H'
-- [INSERT YOUR PROJECT SPECIFIC COMMON TERMS AND HOW TO USE THEM]
+- **AMMOS** - Advanced Multi-Mission Operations System tool set.
+- **Artifactory** - Lab-based artifact repository that stores compiled builds for reuse.
+- **GitHub** - One word with capitalization of the 'G' and 'H'.
+- **Jenkins** - Continuous Integration (CI) server that hosts many Lab builds.
+- **MIPL** - Multimission Instrument Processing Lab which hosts the project containing this repository.
+- **VICAR Java Build**  - The build system that collects and compiles related code.
 
 #### Inline Code Documentation
 
@@ -308,7 +305,7 @@ Additionally, take a look at Google's recommendations on [inline code documentat
 
 #### Media
 
-Media, such as such as images, videos, sound files, etc., are an excellent way to explain documentation to a wider audience more easily. Include media in your contributions as often as possible.
+Media, such as images, videos, sound files, etc., are an excellent way to explain documentation to a wider audience more easily. Include media in your contributions as often as possible.
 
 When including media into our version-control system, it is recommended to use formats such as:
 - Diagrams: [Mermaid](https://mermaid-js.github.io/mermaid/#/) format
@@ -322,8 +319,8 @@ When including media into our version-control system, it is recommended to use f
 Answering questions is an excellent way to learn more about our project, as well as get better known in our project community. 
 
 Here are just a few ways you can help answer questions for our project:
-- Answer open questions in our [discussion forum]([INSERT LINK TO DISCUSSION FORUM])
-- Answer open questions mentioned in our [issue tracking system]([INSERT LINK TO YOUR ISSUE TRACKING SYSTEM])
+- Answer open questions in our [discussion forum](https://github.com/NASA-AMMOS/parent-ammos/discussions)
+- Answer open questions mentioned in our [issue tracking system](https://github.com/NASA-AMMOS/parent-ammos/issues)
 <!-- ADD TO OR MODIFY DEPENDING ON YOUR COMMUNICATION CHANNELS LISTED AT THE BEGINNING OF THIS DOCUMENT-->
 
 When answering questions, keep the following in mind:
